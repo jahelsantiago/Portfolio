@@ -1,0 +1,19 @@
+.social_text{
+    margin: 2rem;
+    
+}
+
+.social_container{
+    font-size: 2rem;
+    font-weight: 500;
+    align-items: center;
+    font-family: 'DotGothic16';
+
+}
+.social_email{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 800;
+    
+}

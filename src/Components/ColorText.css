@@ -1,0 +1,26 @@
+.ColorText{
+    text-align: center;
+}
+.ColorText h1 {
+    
+    color: #fff;
+    font-size: 4rem;    
+    font-family: "ubuntu";
+    text-transform: uppercase;
+    font-weight: 700;        
+    font-family: 'DotGothic16', sans-serif;     
+    background:linear-gradient(71deg, rgba(221,218,23,1) 0%, rgba(246,244,244,1) 100%);        
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;        
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    display: inline-block;
+}
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+   }
+}

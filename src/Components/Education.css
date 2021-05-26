@@ -1,0 +1,94 @@
+
+
+.Education__header{
+    display: flex;    
+    justify-content: center;
+    align-items: center;        
+}
+
+
+
+.Education__description__img{
+    margin: 1rem;
+}
+
+.Education__description__text{
+    margin-bottom: 1rem;
+}
+
+.Education__description__text h2{
+    font-size: 1.3rem;    
+}
+
+.Education__description__text h1{
+    color: rgb(211, 37, 37);
+    font-size: 2rem;
+}
+
+
+.course_work ul li:hover{
+    zoom: 120%;
+    cursor:context-menu;
+    font-weight: 400;
+}
+
+.course_work ul li::marker{
+    content: "▶";
+    color: red;    
+}
+
+.title_text{    
+    color: rgb(211, 37, 37);    
+    font-weight: bold;    
+    font-size: 1.9rem;
+    letter-spacing: 0.02rem;        
+}
+
+.icon{
+    margin-right: 0.5rem;
+}
+
+.description-container{
+    display: flex;    
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.course-list{   
+    margin: 0;    
+    padding-left: 4rem;
+    font-size: 1.2rem;    
+}
+
+
+
+.university-text{    
+    margin: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.univerity-logo{
+    margin: 1rem;
+}
+
+@media screen and (max-width: 860px){
+    .Education__header,
+    .Education__description{
+        flex-direction: column;
+        align-items: center;       
+        padding: 0; 
+        margin-left: 0 ;
+    }
+}
+@media screen and (max-width: 610px){
+    .description-container{
+        flex-direction: column;
+    }
+    .title_text{
+        text-align: center;
+    }
+}
+
