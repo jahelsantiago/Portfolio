@@ -1,43 +1,17 @@
-
-
 .Education__header{
     display: flex;    
     justify-content: center;
     align-items: center;        
 }
 
-
-
-.Education__description__img{
-    margin: 1rem;
+.certifications{
+    border-left: 2px solid red;
+    padding: 1rem;
+    align-self: flex-start;    
+    margin-left: 1rem;
 }
 
-.Education__description__text{
-    margin-bottom: 1rem;
-}
-
-.Education__description__text h2{
-    font-size: 1.3rem;    
-}
-
-.Education__description__text h1{
-    color: rgb(211, 37, 37);
-    font-size: 2rem;
-}
-
-
-.course_work ul li:hover{
-    zoom: 120%;
-    cursor:context-menu;
-    font-weight: 400;
-}
-
-.course_work ul li::marker{
-    content: "▶";
-    color: red;    
-}
-
-.title_text{    
+.title-text{    
     color: rgb(211, 37, 37);    
     font-weight: bold;    
     font-size: 1.9rem;
@@ -83,12 +57,18 @@
         margin-left: 0 ;
     }
 }
-@media screen and (max-width: 610px){
+@media screen and (max-width: 880px){
     .description-container{
         flex-direction: column;
     }
-    .title_text{
+    .title-text{
         text-align: center;
+    }
+    .certifications{
+        align-self: center;
+        border: none;
+        padding: 1rem 0;
+        
     }
 }
 

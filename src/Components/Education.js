@@ -9,6 +9,7 @@ import GradeIcon from '@material-ui/icons/Grade';
 import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
 import PageviewIcon from '@material-ui/icons/Pageview';
 import Fade from 'react-reveal/Fade';
+import StarsIcon from '@material-ui/icons/Stars';
 
 const Education = () => {
     return (
@@ -24,14 +25,14 @@ const Education = () => {
             <div className="description-container">
                 <img className ="univerity-logo" src={unal} alt=""width = "150rem"/>     
                 <div className="description-container-text">                    
-                    <p className = "title_text">B.S. Computer and Systems Engineer</p>  
+                    <p className = "title-text">B.S. Computer and Systems Engineer</p>  
                     <div className = "university-text">
                         <SchoolIcon className = "icon"/>
                         <p style = {{fontWeight : "600"}}>National University of Colombia</p>
                     </div>
                     <div className = "university-text">
                         <CalendarTodayIcon className = "icon"/>
-                        <p>Expected Graduation: <span style = {{color : "#e71825", whiteSpace: "nowrap"}} >December-2023</span></p>                       
+                        <p>Expected Graduation: <span style = {{color : "#e71825", whiteSpace: "nowrap"}} >December-2023</span></p>
                     </div>
                     <div className = "university-text">
                         <GradeIcon className = "icon"/>
@@ -48,9 +49,31 @@ const Education = () => {
                         <li>Statistics and Probability</li>
                         <li>Software Engineer</li>
                         <li>Data Bases (SQL and NoSQL)</li>                        
-                    </ul>                    
-                    
+                    </ul>                                                            
                 </div> 
+
+ 
+
+                <div className ="certifications" >
+                    <p className = "title-text" style = {{fontSize : "1.rem", color : "black"}}>Aditional Studies</p> 
+                    <div className = "university-text">
+                        <StarsIcon className = "icon"/>
+                        <p >Deep learning specialization</p>
+                    </div> 
+                        <p style = {{marginLeft: "3rem"}}>Coursera (<span style = {{color : "#e71825", whiteSpace: "nowrap"}} >September-2020</span>)</p>                        
+                    
+                    <div className = "university-text">
+                        <StarsIcon className = "icon"/>
+                        <p >
+                            Tensor Flow developer:
+                            <span style = {{fontSize: "1.3rem"}}>
+                                profesional certificate 
+                            </span>
+                        </p>                        
+                    </div> 
+                        <p style = {{marginLeft: "3rem"}}>Coursera (<span style = {{color : "#e71825", whiteSpace: "nowrap"}} >September-2020</span>)</p>                        
+                </div>
+
             </div>
         </Fade>
             

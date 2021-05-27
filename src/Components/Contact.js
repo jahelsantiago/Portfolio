@@ -6,6 +6,8 @@ import ColorText from './ColorText'
 import brush_img from "../Images/black_brush.png"
 import EmailIcon from '@material-ui/icons/Email';
 import "./Contact.css"
+import { GitHub, LinkedIn } from '@material-ui/icons';
+import { IconButton } from '@material-ui/core';
 
 const Contact = () => {
     return (
@@ -31,8 +33,19 @@ const Contact = () => {
                     <p style = {{fontFamily:"Roboto"}}>
                         jleonro@unal.edu.co                    
                     </p>
-
-                </div>        
+                </div>  
+                <div className="social-links">
+                    <a  href="https://github.com/jahelsantiago"  target = "_blank">
+                    <IconButton>                        
+                        <GitHub/>      
+                    </IconButton>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jahel-santiago-le%C3%B3n-rodriguez-97a9751aa/?locale=en_US" target = "_blank">
+                    <IconButton>
+                        <LinkedIn/>                    
+                    </IconButton>
+                    </a>
+                </div>      
             </div>
             </Tada>
         </div>
