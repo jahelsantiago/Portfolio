@@ -8,14 +8,16 @@ import waifu_img from "../Images/waifu_net.jpg"
 import minst_img from "../Images/minst.png"
 import manage_img from "../Images/manage_app.png"
 import red_board from "../Images/redboard.png"
+import talky from "../Images/talky.png"
 
 
 const Projects = () => {
     const porject_list = [
-        {image : waifu_img ,img_title : "WAIFU-NEW", title : "WAIFU-NET", content:"The main objective of our project is to create a neural network that can classify a given image into their personality archetype.", href : "https://github.com/jahelsantiago/waifu-net"},
+        {image : red_board ,img_title: "RED-BOARD", title : "RED-BOARD", content : "Web application to share homeworks, exams, laboratories and quizzes across university students, it was launched internally and currently has more than 30000 users", href: "https://github.com/jumorap/red-board", hrefWeb : "https://red-board-70d99.web.app/"},
+        {image : talky ,img_title : "Talky", title : "TALKY", content:"Web application that can answer questions about a given text created with Tensorflow.js.", href : "https://github.com/jahelsantiago/talky", hrefWeb : "https://texttalky.web.app/"},
+        {image : waifu_img ,img_title : "WAIFU-NET", title : "WAIFU-NET", content:"A neural network that can classify a given image into their personality archetype.", href : "https://github.com/jahelsantiago/waifu-net", hrefWeb : "https://www.kaggle.com/jahelsantiagoleon/waifu-net"},
         {image : minst_img ,img_title: "MINST GAN", title : "MINST GAN", content : "In this project we created a Generative adversarial network that generates hand written numbers from a given noise vector.", href:"https://github.com/jahelsantiago/MINST-GANs"},
         {image : manage_img ,img_title: "MANAGE-APP", title : "MANAGE-APP", content : "This project is an ERP for small manufacturing business in Colombia, that allows the user to manage every single part of his business.", href:"https://github.com/jahelsantiago/project-VIVALDI-"},
-        {image : red_board ,img_title: "RED-BOARD", title : "RED-BOARD", content : "Web application to share homeworks, exams, laboratories and quizzes across university students, it was launched internally and currently has more than 30000 users", href: "https://github.com/jumorap/red-board"}
     ]
 
     return (

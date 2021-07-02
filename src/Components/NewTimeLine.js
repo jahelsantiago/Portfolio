@@ -10,8 +10,8 @@ import "./NewTimeLine.css"
 const NewTimeLine = () => {
     return (
         
-<VerticalTimeline className={ "vertical-time-line" }>
-  <VerticalTimelineElement
+<VerticalTimeline className={ "vertical-time-line" } animate = {false}>
+  <VerticalTimelineElement  
     className="vertical-timeline-element--work"
     contentStyle={{ background: '##ffffff', color: 'black' , border: "3px solid #1260a1"}}
     contentArrowStyle={{ borderRight: '7px solid  rgb(18, 96, 161)' }}

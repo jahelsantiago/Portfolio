@@ -24,7 +24,7 @@ const Skills = () => {
                         <li>Clear Communication</li>
                         <li>Problem solving</li>
                         <li>Public speaking</li>
-                        <li>charisma</li>
+                        <li>Charisma</li>
                     </ul>
                 </SkillContainer>
                 <SkillContainer title = "Programing Languages" title_color =  "200,100,20">
@@ -53,6 +53,9 @@ const Skills = () => {
                         <li>MySql</li>
                         <li>T-Sql</li>                        
                         <li>Node Js</li>                        
+                        <li>Express.js</li>                        
+                        <li>MongoDB</li>                        
+                        <li>FastApi</li>                        
                     </ul>
                 </SkillContainer>
                 <SkillContainer title = "Deep learning" title_color =  "200,100,20">

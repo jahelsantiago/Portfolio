@@ -32,14 +32,15 @@ const useStyles = makeStyles({
   }
 });
 
-export default function MediaCard({image,img_title, title, content, href}) {
+export default function MediaCard({image,img_title, title, content, href, hrefWeb}) {
   const classes = useStyles();
 
   return (
     
     <Fade left>    
     <Card className={classes.root}>      
-      <CardActionArea >
+      <a href = {hrefWeb} target = "_blank" rel = "noreferrer">
+      <CardActionArea>
         <CardMedia 
           
           className={classes.media}          
@@ -52,11 +53,10 @@ export default function MediaCard({image,img_title, title, content, href}) {
           </p>
           <p className = {classes.title + " " +  classes.text}>
             {content}
-          </p>
-            
-          
+          </p>                      
         </CardContent>
       </CardActionArea>
+      </a>
       <CardActions>
         <Button size="small" color="primary" target="_blank" href={href}>
           {"Learn More"}
