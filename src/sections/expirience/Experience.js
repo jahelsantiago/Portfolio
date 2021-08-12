@@ -1,8 +1,8 @@
 import React from 'react'
 import NewTimeLine from "./NewTimeLine"
-import brush_img from  "../Images/blue_brush.png"
-import Brush from "./Brush"
-import ColorText from "./ColorText"
+import brush_img from "../../Images/blue_brush.png"
+import Brush from "../../Components/Brush"
+import ColorText from "../../Components/ColorText"
 import "./Experience.css"
 
 const Experience = () => {

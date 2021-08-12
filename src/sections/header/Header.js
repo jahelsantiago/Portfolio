@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Header.css"
-import ColorText from "./ColorText"
+import ColorText from "../../Components/ColorText"
 const Header = () => {
     
 

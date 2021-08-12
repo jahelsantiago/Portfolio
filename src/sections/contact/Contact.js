@@ -1,9 +1,9 @@
 import Zoom from 'react-reveal/Zoom';
 import Tada from 'react-reveal/Tada';
 import React from 'react'
-import Brush from './Brush'
-import ColorText from './ColorText'
-import brush_img from "../Images/black_brush.png"
+import Brush from '../../Components/Brush'
+import ColorText from '../../Components/ColorText'
+import brush_img from "../../Images/black_brush.png"
 import EmailIcon from '@material-ui/icons/Email';
 import "./Contact.css"
 import { GitHub, LinkedIn } from '@material-ui/icons';

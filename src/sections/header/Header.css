@@ -18,7 +18,7 @@
     align-items: center;
     justify-content:center;
     flex-direction: column;        
-    background-image: url("../Images/background_header.jpg");
+    background-image: url("../../Images/background_header.jpg");
     background-repeat: no-repeat;  
     background-size: cover;    
    }

@@ -1,11 +1,11 @@
 import './App.css';
 import NavBar from './Components/NavBar';
-import Header from './Components/Header';
-import Projects from './Components/Projects';
-import Education from './Components/Education';
-import Experience from './Components/Experience';
-import Skills from './Components/Skills';
-import Contact from './Components/Contact';
+import Header from './sections/header/Header';
+import Projects from './sections/projects/Projects';
+import Education from './sections/education/Education';
+import Experience from './sections/expirience/Experience';
+import Skills from './sections/skills/Skills';
+import Contact from './sections/contact/Contact';
 
 function App() {
   return (

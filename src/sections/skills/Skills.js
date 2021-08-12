@@ -1,7 +1,7 @@
 import React from 'react'
-import brush_img from  "../Images/purple_brush.png"
-import Brush from "./Brush"
-import ColorText from "./ColorText"
+import brush_img from "../../Images/purple_brush.png"
+import Brush from "../../Components/Brush"
+import ColorText from "../../Components/ColorText"
 import SkillContainer from "./SkillContainer"
 
 
@@ -56,6 +56,7 @@ const Skills = () => {
                         <li>Express.js</li>                        
                         <li>MongoDB</li>                        
                         <li>FastApi</li>                        
+                        <li>GraphQL</li>                        
                     </ul>
                 </SkillContainer>
                 <SkillContainer title = "Deep learning" title_color =  "200,100,20">

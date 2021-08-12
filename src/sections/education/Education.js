@@ -1,9 +1,9 @@
 import React from 'react'
-import ColorText from "./ColorText"
+import ColorText from "../../Components/ColorText"
 import "./Education.css"
-import brush_img from  "../Images/red_brush.png"
-import Brush from "./Brush"
-import unal from "../Images/Escudo_unal.png"
+import brush_img from "../../Images/red_brush.png"
+import Brush from "../../Components/Brush"
+import unal from "../../Images/Escudo_unal.png"
 import SchoolIcon from '@material-ui/icons/School';
 import GradeIcon from '@material-ui/icons/Grade';
 import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
