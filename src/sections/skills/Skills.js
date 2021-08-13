@@ -40,23 +40,26 @@ const Skills = () => {
                 </SkillContainer>
                 <SkillContainer title = "Front-end" title_color =  "200,100,20">
                     <ul>
-                        <li>HTML5 & CSS3</li>                        
-                        <li>React</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>React.js</li>
+                        <li>Next.js</li>
+                        <li>React testing library</li>
+                        <li>Tailwind</li>
                         <li>Sass</li>
                         <li>Material UI</li>
                         <li>Figma</li>
+                        <li>GraphQL apollo client</li>
                     </ul>
                 </SkillContainer>
                 <SkillContainer title = "Back-end" title_color =  "200,100,20">
                     <ul>
                         <li>Firebase</li>
                         <li>MySql</li>
-                        <li>T-Sql</li>                        
-                        <li>Node Js</li>                        
+                        <li>Node.js</li>
                         <li>Express.js</li>                        
                         <li>MongoDB</li>                        
                         <li>FastApi</li>                        
-                        <li>GraphQL</li>                        
+                        <li>GraphQL apollo server</li>
                     </ul>
                 </SkillContainer>
                 <SkillContainer title = "Deep learning" title_color =  "200,100,20">
