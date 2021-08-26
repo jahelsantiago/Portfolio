@@ -11,7 +11,7 @@ import { IconButton } from '@material-ui/core';
 
 const Contact = () => {
     return (
-        <div id = "contact">
+        <div id = "contact" className = "contact">
             <div className="fac titles">
                 <Brush brush = {brush_img} heigh = {"1rem"} widht = {"70%"}/>                            
                 <Zoom bottom>

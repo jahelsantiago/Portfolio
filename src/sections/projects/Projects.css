@@ -1,17 +1,21 @@
+.projects-container{    
+    background-image: url(../../Images//green-back.svg);    
+    background-repeat: repeat-y;
+    background-position: bottom;
+    background-size: cover;
+}
+
 .projects{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;    
-    align-items: center;
+    align-items: center;    
 }
 
 .stack{
     display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    background: #FFFFFF;
-    background: rgb(255,255,255);
-    background: linear-gradient(to top, rgba(255,255,255,1) 12%, rgba(117,226,83,1) 100%);
+    justify-content: flex-start;
+    flex-wrap: wrap;    
     padding-bottom: 10%;
 }
 

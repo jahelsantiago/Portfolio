@@ -7,7 +7,7 @@ import "./Experience.css"
 
 const Experience = () => {
     return (
-        <div id = "experience">
+        <div id = "experience" className = "experience-container">
             <div className="fac experience">
                 <Brush brush = {brush_img} heigh = {"1rem"} widht = {"60%"}/>            
                 <ColorText size = {4} from = {"9, 53, 139"} to = {"91, 120, 177"} time = {"5"}>            

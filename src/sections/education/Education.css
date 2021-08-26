@@ -1,3 +1,10 @@
+.Education{
+    background-image: url(../../Images//blue-back.svg);    
+    background-repeat: repeat-y;
+    background-position: bottom;
+    background-size: cover;
+}
+
 .Education__header{
     display: flex;    
     justify-content: center;

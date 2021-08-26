@@ -1,3 +1,11 @@
+.skills{
+    background-image: url(../../Images//purple-back.svg);    
+    background-repeat: repeat-y;
+    background-position: bottom;
+    background-size: cover;
+
+}
+
 .skills_body{
     display: flex;    
     flex-wrap: wrap;

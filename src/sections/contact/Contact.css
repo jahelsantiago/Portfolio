@@ -1,3 +1,10 @@
+.contact{
+    background-image: url(../../Images//black-back.svg);    
+    background-repeat: repeat-y;
+    background-position: bottom;
+    background-size: cover;
+}
+
 .social_text{
     margin: 2rem;
     

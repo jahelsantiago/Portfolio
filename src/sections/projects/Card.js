@@ -38,10 +38,7 @@ export default function MediaCard({image,img_title, title, content, href, hrefWe
   return (
     
     <Fade left>    
-    <Card className={classes.root}>      
-      <div className={"stack"}>
-        {stacks.map(stack => <div className={"stack-item"}>{stack}</div>)}
-      </div>
+    <Card className={classes.root}>            
       <a href = {hrefWeb} target = "_blank" rel = "noreferrer">
       <CardActionArea>
         <CardMedia
@@ -49,10 +46,13 @@ export default function MediaCard({image,img_title, title, content, href, hrefWe
           image = {image}
           title={img_title}
         />        
-        <CardContent>
+        <CardContent>          
           <p className = {classes.title}>
             {title}
           </p>
+          <div className={"stack"}>
+            {stacks.map(stack => <div className={"stack-item"}>{stack}</div>)}
+          </div>
           <p className = {classes.title + " " +  classes.text}>
             {content}
           </p>                      

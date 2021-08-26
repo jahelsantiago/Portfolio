@@ -1,3 +1,10 @@
+.experience-container{
+    background-image: url(../../Images//red-back.svg);    
+    background-repeat: repeat-y;
+    background-position: bottom;
+    background-size: cover;
+}
+
 @media screen and (max-width: 860px){    
     .experience{
         flex-direction: column;

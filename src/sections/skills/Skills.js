@@ -10,7 +10,7 @@ import "./Skills.css"
 
 const Skills = () => {
     return (
-        <div className = "Skills" id = "skills">
+        <div className = "skills" id = "skills">
             <div className="fac titles">
                 <ColorText size = {4} from = {"170, 42, 175"} to = {"198, 113, 201"} time = {"5"}>            
                     Skills
