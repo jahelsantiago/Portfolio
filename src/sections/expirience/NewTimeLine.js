@@ -8,10 +8,10 @@ import "./NewTimeLine.css"
 
 const experience = [
   {
-    icon : <StorageIcon />, title : "Software engineer", subTitle : "Bogota, Col", descrpition : ["▪ Designed and developed the automated analysis system for drug prices based on the (SISMED) of the Colombian Ministry of Health. The back-end was made via RestApi with Python and the front-end with React.js"], date: "Aug 2021 - Present"
+    icon : <StorageIcon />, title : "Front-end developer", subTitle : "Bogota, Col", descrpition : ["• Closely worked with the design team to create the front end of the main page of DIME, the organization that control the pharmaceutical prices in Latin America.", "• Implemented an auxiliar web application with react and firebase to automate the process of modifying the main web site."], date: "Aug 2021 - Present"
   },
   {
-    icon : <StorageIcon />, title : "Back-end developer", subTitle : "Bogota, Col", descrpition : ["▪ Worked with another engineer developing an information system using T-sql in Azuere server . The software was launched as an internal tool, decreasing the information loss to 0%.","▪ Improved the logical model and queries of the database increasing the total speed of the application in 500%."], date: "Aug 2020 - Dec 2020"
+    icon : <StorageIcon />, title : "Back-end developer", subTitle : "Bogota, Col", descrpition : ["• Developed an information system using T-sql in Azure server. The software was launched as an internal tool, decreasing the information loss to 0%."," • Decreased the execution time of the information retrieval in a factor of 10 by improving the logical model, the queries and indexes of the data base. "], date: "Aug 2020 - Dec 2020"
   },
   {
     icon : <CodeIcon />, title : "Python teacher", subTitle : "Medellin, Col", descrpition : ["▪ Worked as volunteer teaching python programming basics to more than 150 kids under 10 and 15 years old in the remotest regions of Antioquia Colombia."], date: "Jan 2018 - Dec 2018"
