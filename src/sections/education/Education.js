@@ -10,6 +10,7 @@ import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
 import PageviewIcon from '@material-ui/icons/Pageview';
 import Fade from 'react-reveal/Fade';
 import StarsIcon from '@material-ui/icons/Stars';
+import CurrencyExchangeIcon from '@material-ui/icons/';
 
 const Education = () => {
     return (
@@ -30,13 +31,17 @@ const Education = () => {
                         <SchoolIcon className = "icon"/>
                         <p style = {{fontWeight : "600"}}>National University of Colombia</p>
                     </div>
+                    
+                    <div className = "course-list">
+                        <p>Full scholarship for academic excellence <br/> <span style = {{color : "#e71825", whiteSpace: "nowrap"}} >Fundacion Bancolombia GEN50</span></p>
+                    </div>
                     <div className = "university-text">
                         <CalendarTodayIcon className = "icon"/>
                         <p>Expected Graduation: <span style = {{color : "#e71825", whiteSpace: "nowrap"}} >December-2023</span></p>
                     </div>
                     <div className = "university-text">
                         <GradeIcon className = "icon"/>
-                        <p>GPA: <span style = {{color : "#e71825"}}>4.4 / 5</span></p>                         
+                        <p>GPA: <span style = {{color : "#e71825"}}>4.5 / 5</span></p>                         
                     </div>                    
                     <div className = "university-text">
                         <PageviewIcon className = "icon"/>

@@ -8,12 +8,16 @@ import waifu_img from "../../Images/waifu_net.jpg"
 import minst_img from "../../Images/minst.png"
 import manage_img from "../../Images/manage_app.png"
 import red_board from "../../Images/redboard.png"
+import cll100 from "../../Images/cll100.png"
 import talky from "../../Images/talky.png"
 import shortly from "../../Images/shortly.png"
+import sigma from "../../Images/sigma.png"
 
 const Projects = () => {
     const porject_list = [
         {image : red_board ,img_title: "RED-BOARD", title : "RED-BOARD", content : "Web platform to share homeworks, exams, laboratories and quizzes across university students", href: "https://github.com/jumorap/red-board", hrefWeb : "https://red-board-70d99.web.app/", stacks : ["FullStack", "React", "Auth", "Firebase", "Storage", "Full-Text search"]},
+        {image : cll100 ,img_title: "Cll100", title : "Cll100 Arriendos", content : "A web application to rent flats and apartments in the north of Bogota.", href: "https://cll100.vercel.app/", hrefWeb : "https://cll100.vercel.app/", stacks : ["FullStack", "React", "Next", "Firebase"]},
+        {image : sigma ,img_title: "Sigmascript", title : "Sigmascript", content : "A web application to rent flats and apartments in the north of Bogota.", href: "https://drive.google.com/file/d/1sxcg9ZnLk74v6Iw_KQJFCoySO3DdIrWG/view?usp=sharing", hrefWeb : "https://github.com/jahelsantiago/Sigmascript", stacks : ["Python", "PLY", "Yacc", "Semantic Analysis", "Interpreter"]},
         {image : talky ,img_title : "Talky", title : "TALKY", content:"Web application that can answer questions about a given text created with Tensorflow.js.", href : "https://github.com/jahelsantiago/talky", hrefWeb : "https://texttalky.web.app/", stacks: ["NLP", "Tensorflow.js", "React", "machine learning"]},
         {image : waifu_img ,img_title : "WAIFU-NET", title : "WAIFU-NET", content:"A neural network that can classify a given image into their personality archetype.", href : "https://github.com/jahelsantiago/waifu-net", hrefWeb : "https://www.kaggle.com/jahelsantiagoleon/waifu-net", stacks: ["Deep Learning", "CNN", "Image Classification", "Keras"]},
         {image : minst_img ,img_title: "MINST GAN", title : "MINST GAN", content : "In this project we created a Generative adversarial network that generates hand written numbers from a given noise vector.", href:"https://github.com/jahelsantiago/MINST-GANs", stacks: ["GANs", "Pytorch"]},
